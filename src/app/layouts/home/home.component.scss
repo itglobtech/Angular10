@@ -1,0 +1,51 @@
+.bg-img {
+  background-image: url(../../../assets/img/bg-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 93vh;
+}
+#welcomeh1 {
+  font-size: 4rem;
+  font-family: "Sansita Swashed", cursive;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 150px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 640px) {
+  #welcomeh1 {
+    font-size: 2rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 823px) {
+  #welcomeh1 {
+    font-size: 2rem;
+    padding-top: 20px;
+  }
+}
+@media (width: 768px) {
+  #welcomeh1 {
+    font-size: 2rem;
+    padding-top: 120px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .bg-img {
+    height: 95.3vh;
+  }
+}
+@media (max-width: 1366px) {
+  .bg-img {
+    height: 95.5vh;
+  }
+}

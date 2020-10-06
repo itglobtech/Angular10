@@ -1,0 +1,26 @@
+.active{
+  color: yellow !important;
+}
+.nav-item {
+  /* font-family: "Roboto", cursive; */
+  font-size: 18px;
+}
+.dropdown-item:hover {
+  background-color: orange;
+  color: white;
+}
+.navbar-brand {
+  /* font-family: 'Roboto', cursive; */
+  font-size: 24px;
+}
+.navbar {
+  -webkit-box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 1920px) {
+  .navbar-brand {
+    /* font-family: 'Roboto', cursive; */
+    font-size: 28px;
+  }
+}
