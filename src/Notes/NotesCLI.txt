@@ -1,0 +1,5 @@
+ng generate module customers --route customers --module app.module
+ng generate module employees --route employees --module app.module
+ng generate module stocks --route stocks --module app.module
+ng generate module githubSearch --route githubSearch --module app.module
+ng generate module examples --route examples --module app.module
