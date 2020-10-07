@@ -1,5 +1,9 @@
-ng generate module customers --route customers --module app.module
-ng generate module employees --route employees --module app.module
-ng generate module stocks --route stocks --module app.module
-ng generate module githubSearch --route githubSearch --module app.module
-ng generate module examples --route examples --module app.module
+ng generate module customers --route customers --module app.module && ng generate module employees --route employees --module app.module && ng generate module stocks --route stocks --module app.module && ng generate module githubSearch --route githubSearch --module app.module && ng generate module examples --route examples --module app.module
+
+ng g c components/customer-list && ng g c components/customer-details && ng g s services/customer
+
+ng g c components/employees-list && ng g c components/employees-details && ng g s services/employees
+
+ng g c components/stocks-list && ng g c components/stocks-details && ng g s services/stocks
+
+ng g c components/githubSearch-list && ng g c components/githubSearch-details && ng g s services/githubSearch

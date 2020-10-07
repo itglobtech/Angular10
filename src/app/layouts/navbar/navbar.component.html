@@ -46,10 +46,11 @@
           Modules
         </a>
         <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Github Search</a>
-          <a class="dropdown-item" href="#">Employes</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Employes with Routing</a>
+          <a class="dropdown-item" [routerLink]="['/githubSearch']"
+            >Github Search</a
+          >
+          <a class="dropdown-item" [routerLink]="['/employees']">Employes</a>
+          <!-- <div class="dropdown-divider"></div> -->
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -72,12 +73,17 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active"
-        [routerLink]="['/about']">About</a>
+        <a class="nav-link" routerLinkActive="active" [routerLink]="['/about']"
+          >About</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active"
-        [routerLink]="['/contact']">Contact</a>
+        <a
+          class="nav-link"
+          routerLinkActive="active"
+          [routerLink]="['/contact']"
+          >Contact</a
+        >
       </li>
     </ul>
   </div>

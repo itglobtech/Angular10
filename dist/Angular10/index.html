@@ -19,10 +19,55 @@
   rel="stylesheet"
 />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">
+    body,
+    html {
+      height: 100%;
+    }
+    .pre-center-screen {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .spin {
+      border: 48px solid #ba4a00;
+      border-radius: 50%;
+      border-top: 48px solid #dc7633;
+      border-right: 48px solid #e59866;
+      border-bottom: 48px solid #edbb99;
+      border-left: 48px solid #f6ddcc;
+      width: 150px;
+      height: 150px;
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite;
+    }
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 <link rel="stylesheet" href="styles.09e2c710755c8867a460.css"></head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <todo-root>
+      <div class="pre-center-screen">
+        <div class="spin"></div>
+      </div>
+  </app-root>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 
-<script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="main.5342b9ee58264b6fc786.js" defer></script></body>
+<script src="runtime.294e9ddef101c39557f1.js" defer></script><script src="polyfills.35a5ca1855eb057f016a.js" defer></script><script src="main.d83b2b056293de2d2bb8.js" defer></script></body>
 </html>
