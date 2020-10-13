@@ -1,9 +1,16 @@
-.active{
-  color: yellow !important;
+.active {
+  color: orange !important;
+}
+a.active:hover {
+  color: red !important;
 }
 .nav-item {
   /* font-family: "Roboto", cursive; */
   font-size: 18px;
+}
+.nav-link:hover {
+  /* font-family: "Roboto", cursive; */
+  color: rgba(80, 255, 153, 0.445) !important;
 }
 .dropdown-item:hover {
   background-color: orange;
