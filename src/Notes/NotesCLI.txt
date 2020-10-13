@@ -7,3 +7,6 @@ ng g c components/employees-list && ng g c components/employees-details && ng g 
 ng g c components/stocks-list && ng g c components/stocks-details && ng g s services/stocks
 
 ng g c components/githubSearch-list && ng g c components/githubSearch-details && ng g s services/githubSearch
+
+ng generate module contacts --route contacts --module app.module
+ng g c components/contact-list && ng g s services/contact-list
