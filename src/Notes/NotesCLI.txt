@@ -10,3 +10,9 @@ ng g c components/githubSearch-list && ng g c components/githubSearch-details &&
 
 ng generate module contacts --route contacts --module app.module
 ng g c components/contact-list && ng g s services/contact-list
+
+
+Examples
+========
+
+ng g c components/component-interaction && ng g c components/data-bindings && ng g c components/events-bindings && ng g c components/form-bindings && ng g c components/structural-directives

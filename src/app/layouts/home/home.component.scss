@@ -1,16 +1,30 @@
 .bg-img {
-  background-image: url(../../../assets/img/bg-1.png);
+  background-image: url(../../../assets/img/bg-coding.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 93vh;
 }
 #welcomeh1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: "Sansita Swashed", cursive;
-  color: whitesmoke;
-  text-align: center;
-  padding-top: 150px;
+  color: orange;
+  padding-top: 400px;
+  margin-bottom: 30px;
+  text-shadow: 1rem;
+  text-decoration: underline;
+}
+p {
+  font-size: 2.5rem;
+}
+.center {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -50px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -24,10 +38,19 @@
 @media (max-width: 823px) {
   #welcomeh1 {
     font-size: 2rem;
-    padding-top: 20px;
+    padding-top: 40px;
+  }
+  p {
+    font-size: 1.5rem;
   }
 }
 @media (width: 768px) {
+  #welcomeh1 {
+    font-size: 2rem;
+    padding-top: 120px;
+  }
+}
+@media (width: 1024px) {
   #welcomeh1 {
     font-size: 2rem;
     padding-top: 120px;
@@ -49,8 +72,13 @@
     height: 95.5vh;
   }
 }
-@media (min-width : 1440px) {
+@media (min-width: 1440px) {
   .bg-img {
     height: 95.64vh;
+  }
+}
+@media (min-width: 3200px) {
+  .bg-img {
+    height: 96.1vh;
   }
 }
