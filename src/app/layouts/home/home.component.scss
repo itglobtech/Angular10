@@ -1,21 +1,22 @@
 .bg-img {
-  background-image: url(../../../assets/img/bg-coding.jpg);
+  background-image: url(../../../assets/img/bg-home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 93vh;
+  height: 100vh;
 }
 #welcomeh1 {
-  font-size: 5rem;
+  font-size: 2rem;
   font-family: "Sansita Swashed", cursive;
   color: orange;
-  padding-top: 400px;
+  padding-top: 150px;
   margin-bottom: 30px;
   text-shadow: 1rem;
   text-decoration: underline;
 }
 p {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .center {
   position: absolute;
@@ -27,58 +28,133 @@ p {
   margin-left: -50px;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 640px) {
-  #welcomeh1 {
-    font-size: 2rem;
-  }
-}
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 823px) {
-  #welcomeh1 {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    #welcomeh1 {
     font-size: 2rem;
     padding-top: 40px;
   }
   p {
     font-size: 1.5rem;
   }
-}
-@media (width: 768px) {
-  #welcomeh1 {
-    font-size: 2rem;
-    padding-top: 120px;
-  }
-}
-@media (width: 1024px) {
-  #welcomeh1 {
-    font-size: 2rem;
-    padding-top: 120px;
-  }
-}
+ }
 
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  #welcomeh1 {
+    font-size: 3rem;
+    font-family: "Sansita Swashed", cursive;
+    color: orange;
+    padding-top: 200px;
+    margin-bottom: 30px;
+    text-shadow: 1rem;
+    text-decoration: underline;
+  }
+ 
+ }
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {  
+   #welcomeh1 {
+  font-size: 2rem;
+  font-family: "Sansita Swashed", cursive;
+  color: orange;
+  padding-top: 100px;
+  margin-bottom: 30px;
+  text-shadow: 1rem;
+  text-decoration: underline;
 }
+p {
+  font-weight: bold;
+}}
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {  
+   #welcomeh1 {
+  font-size: 3rem;
+  font-family: "Sansita Swashed", cursive;
+  color: orange;
+  padding-top: 250px;
+  margin-bottom: 30px;
+  text-shadow: 1rem;
+  text-decoration: underline;
+}}
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-  .bg-img {
-    height: 95.3vh;
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  #welcomeh1 {
+    font-size: 2.5rem;
+    font-family: "Sansita Swashed", cursive;
+    color: orange;
+    padding-top: 200px;
+    margin-bottom: 30px;
+    text-shadow: 1rem;
+    text-decoration: underline;
   }
-}
-@media (max-width: 1366px) {
-  .bg-img {
-    height: 95.5vh;
+  p {
+    font-weight: bold;
   }
-}
-@media (min-width: 1440px) {
-  .bg-img {
-    height: 95.64vh;
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  #welcomeh1 {
+    font-size: 3rem;
+    font-family: "Sansita Swashed", cursive;
+    color: orange;
+    padding-top: 200px;
+    margin-bottom: 30px;
+    text-shadow: 1rem;
+    text-decoration: underline;
   }
-}
-@media (min-width: 3200px) {
-  .bg-img {
-    height: 96.1vh;
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  #welcomeh1 {
+    font-size: 4.5rem;
+    font-family: "Sansita Swashed", cursive;
+    color: orange;
+    padding-top: 350px;
+    margin-bottom: 30px;
+    text-shadow: 1rem;
+    text-decoration: underline;
   }
-}
+ }
+
+// /* Extra small devices (portrait phones, less than 576px) */
+// @media (max-width: 640px) {
+//   #welcomeh1 {
+//     font-size: 2rem;
+//   }
+// }
+
+// /* Small devices (landscape phones, less than 768px) */
+// @media (max-width: 823px) {
+//   #welcomeh1 {
+//     font-size: 2rem;
+//     padding-top: 40px;
+//   }
+//   p {
+//     font-size: 1.5rem;
+//   }
+// }
+// @media (width: 768px) {
+//   #welcomeh1 {
+//     font-size: 2rem;
+//     padding-top: 120px;
+//   }
+// }
+// @media (width: 1024px) {
+//   #welcomeh1 {
+//     font-size: 2rem;
+//     padding-top: 120px;
+//   }
+// }
+
+
