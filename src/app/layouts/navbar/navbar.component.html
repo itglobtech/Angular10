@@ -29,6 +29,8 @@
           [routerLinkActiveOptions]="{ exact: true }"
           routerLinkActive="active"
           [routerLink]="['/']"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
           >Home <span class="sr-only">(current)</span></a
         >
       </li>
@@ -45,7 +47,12 @@
         >
           Modules
         </a>
-        <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+        <div
+          class="dropdown-menu p-0"
+          aria-labelledby="navbarDropdown"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
           <a class="dropdown-item" [routerLink]="['/githubSearch']"
             >Github Search</a
           >
@@ -67,7 +74,12 @@
         >
           Examples
         </a>
-        <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+        <div
+          class="dropdown-menu p-0"
+          aria-labelledby="navbarDropdown"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
           <a class="dropdown-item" href="#">Stop Timer</a>
           <a class="dropdown-item" href="#">Watch</a>
           <div class="dropdown-divider"></div>
@@ -89,7 +101,12 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" [routerLink]="['/about']"
+        <a
+          class="nav-link"
+          routerLinkActive="active"
+          [routerLink]="['/about']"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
           >About</a
         >
       </li>
@@ -98,6 +115,8 @@
           class="nav-link"
           routerLinkActive="active"
           [routerLink]="['/contact']"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
           >Contact</a
         >
       </li>
