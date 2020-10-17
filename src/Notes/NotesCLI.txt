@@ -15,7 +15,7 @@ ng g c components/contact-list && ng g s services/contact-list
 Examples
 ========
 
-ng g c components/component-interaction && ng g c components/data-bindings && ng g c components/events-bindings && ng g c components/form-bindings && ng g c components/structural-directives
+ng g c components/component-interaction && ng g c components/component-interaction-adv && ng g c components/data-bindings && ng g c components/events-bindings && ng g c components/form-bindings && ng g c components/structural-directives
 
 Hide Navbar when click on a link on smaller screen
 ==================================================

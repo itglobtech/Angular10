@@ -10,9 +10,12 @@ import { FormBindingsComponent } from './components/form-bindings/form-bindings.
 import { StructuralDirectivesComponent } from './components/structural-directives/structural-directives.component';
 import { ParentComponent } from './components/component-interaction/parent/parent.component';
 import { ChildComponent } from './components/component-interaction/child/child.component';
+import { ComponentInteractionAdvComponent } from './components/component-interaction-adv/component-interaction-adv.component';
+import { ParentCardComponent } from './components/component-interaction-adv/parent-card/parent-card.component';
+import { ChildCardComponent } from './components/component-interaction-adv/child-card/child-card.component';
 
 @NgModule({
-  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent],
+  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent],
   imports: [
     CommonModule,
     ExamplesRoutingModule
