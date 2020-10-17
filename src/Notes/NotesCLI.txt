@@ -16,3 +16,4 @@ Examples
 ========
 
 ng g c components/component-interaction && ng g c components/data-bindings && ng g c components/events-bindings && ng g c components/form-bindings && ng g c components/structural-directives
+
