@@ -1,9 +1,9 @@
 .active {
   color: orange !important;
 }
-.navbar-nav > li{
-  padding-left:6px;
-  padding-right:6px;
+.navbar-nav > li {
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .nav-item {
   /* font-family: "Roboto", cursive; */
@@ -36,5 +36,23 @@
     font-size: 22px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .navbar-nav > li {
+    padding: 0px;
+  }
+  .navbar-brand {
+    /* font-family: 'Roboto', cursive; */
+    font-size: 40px;
+    padding: 0px;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: 80px;
+  }
+}
+@media (max-width: 640px) {
+  .navbar-brand img {
+    width: 55px;
+    height: 45px;
   }
 }
