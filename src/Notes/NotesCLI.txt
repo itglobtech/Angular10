@@ -20,3 +20,5 @@ ng g c components/component-interaction && ng g c components/component-interacti
 Hide Navbar when click on a link on smaller screen
 ==================================================
 data-toggle="collapse" data-target=".navbar-collapse.show"
+
+rm -rf dist/ && ng b --prod && git add -A && git commit -m "..." && git push && devssh
