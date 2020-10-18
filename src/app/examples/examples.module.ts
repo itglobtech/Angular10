@@ -13,12 +13,16 @@ import { ChildComponent } from './components/component-interaction/child/child.c
 import { ComponentInteractionAdvComponent } from './components/component-interaction-adv/component-interaction-adv.component';
 import { ParentCardComponent } from './components/component-interaction-adv/parent-card/parent-card.component';
 import { ChildCardComponent } from './components/component-interaction-adv/child-card/child-card.component';
+import { FormsModule } from '@angular/forms';
+import { ComponentInteractionClientServerComponent } from './components/component-interaction-client-server/component-interaction-client-server.component';
+
 
 @NgModule({
-  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent],
+  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent, ComponentInteractionClientServerComponent],
   imports: [
     CommonModule,
-    ExamplesRoutingModule
+    ExamplesRoutingModule,
+    FormsModule
   ]
 })
 export class ExamplesModule { }

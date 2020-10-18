@@ -1,1 +1,23 @@
-<p>parent-card works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <p class="h4">Parent Card</p>
+                </div>
+                <div class="card-body bg-light">
+                    <form action="" >
+                        <div class="form-group">
+                            <input name="parentText" [(ngModel)]="parentText" type="text" class="form-control">
+                            
+                        </div>
+                        <div class="text-center">
+                           <p class="h4">From Child : {{childData}}</p>
+                        </div>
+                    </form>
+                    <app-child-card [parentText]="parentText" (sendData)="childData=$event"></app-child-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
