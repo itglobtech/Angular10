@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ComponentInteractionClientServerComponent implements OnInit {
 
   constructor() { }
-
+  public fromClient:string;
+  public fromServer:string;
   ngOnInit(): void {
   }
 

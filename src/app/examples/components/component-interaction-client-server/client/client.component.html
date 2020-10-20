@@ -1,0 +1,8 @@
+<div class="card mt-3">
+    <div class="card-header bg-success text-white">Client Card</div>
+    <div class="card-body bg-lite">
+        <input type="text" name="clientText" [(ngModel)]="clientText" class="w-100">
+        <button class="btn btn-danger mt-2" (click)=sendData()>Send</button>
+        <label for="" class="ml-5">Server Data : {{serverData}}</label>
+    </div>
+</div>

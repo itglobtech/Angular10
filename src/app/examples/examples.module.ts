@@ -15,10 +15,12 @@ import { ParentCardComponent } from './components/component-interaction-adv/pare
 import { ChildCardComponent } from './components/component-interaction-adv/child-card/child-card.component';
 import { FormsModule } from '@angular/forms';
 import { ComponentInteractionClientServerComponent } from './components/component-interaction-client-server/component-interaction-client-server.component';
+import { ClientComponent } from './components/component-interaction-client-server/client/client.component';
+import { ServerComponent } from './components/component-interaction-client-server/server/server.component';
 
 
 @NgModule({
-  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent, ComponentInteractionClientServerComponent],
+  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent, ComponentInteractionClientServerComponent, ClientComponent, ServerComponent],
   imports: [
     CommonModule,
     ExamplesRoutingModule,

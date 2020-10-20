@@ -1,1 +1,23 @@
-<p>component-interaction-client-server works!</p>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="display-5 text-danger">Client Server Component Interaction</p>
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque tempore
+        pariatur neque, deleniti dolores repellendus, sunt iure fuga sequi
+        eligendi nesciunt enim sed saepe optio hic omnis cumque accusamus
+        laborum porro cupiditate assumenda? Atque tenetur itaque sequi cum saepe
+        dolorum.
+      </p>
+    </div>
+  </div>
+  <div class="row mt-3">
+      <div class="col-md-6">
+          <app-server (sendServer)="fromServer=$event" [clientData]="fromClient"></app-server>
+      </div>
+      <div class="col-md-6">
+          <app-client (sendClient)="fromClient=$event" [serverData]="fromServer"></app-client>
+      </div>
+  </div>
+  </div>
+  
