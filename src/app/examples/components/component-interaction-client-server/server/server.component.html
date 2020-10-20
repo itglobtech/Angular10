@@ -1,12 +1,13 @@
 <div class="card mt-3">
-    <div class="card-header bg-primary  text-white">
-        Server Card
-    </div>
-    <div class="card-body bg-lite">
-        <input type="text" class="w-100" name="serverText" [(ngModel)]="serverText">
-        <button class="btn btn-danger mt-2" (click)="sendData()">
-            Send
-        </button>
-        <label for="" class="ml-5">Client Data : {{clientData}} </label>
-    </div>
+  <div class="card-header bg-primary text-white">Server Card</div>
+  <div class="card-body bg-lite">
+    <input
+      type="text"
+      class="w-100"
+      name="serverText"
+      [(ngModel)]="serverText"
+    />
+    <button class="btn btn-danger mt-2" (click)="sendData()">Send</button>
+    <label for="" class="ml-5">Client Data : {{ clientData }} </label>
+  </div>
 </div>

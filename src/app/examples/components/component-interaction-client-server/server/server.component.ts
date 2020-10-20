@@ -3,19 +3,16 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 @Component({
   selector: 'app-server',
   templateUrl: './server.component.html',
-  styleUrls: ['./server.component.scss']
+  styleUrls: ['./server.component.scss'],
 })
 export class ServerComponent implements OnInit {
-
-  public serverText:string;
+  public serverText: string;
   @Output() sendServer = new EventEmitter();
-  @Input() clientData:string;
-  constructor() { }
+  @Input() clientData: string;
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-  sendData(){
+  ngOnInit(): void {}
+  sendData() {
     this.sendServer.emit(this.serverText);
   }
-
 }
