@@ -6,7 +6,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./server.component.scss'],
 })
 export class ServerComponent implements OnInit {
-  public serverText: string;
+  public serverText: string='';
   @Output() sendServer = new EventEmitter();
   @Input() clientData: string;
   constructor() {}
