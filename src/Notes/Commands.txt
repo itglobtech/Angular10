@@ -1,1 +1,1 @@
-rm -rf dist/ && ng b --prod && git add -A && git commit -m "..." && git push && devssh
+rm -rf dist/ && ng b --prod && git add -A && git commit -m '...' && git push && devssh

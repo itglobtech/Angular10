@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build",
-    "srk" : "rm -rf dist/ && ng b --prod && git add -A && git commit -m '...' && git push && devssh",
+    "build": "rm -rf dist/ && ng b --prod && git add -A && git commit -m '...' && git push && devssh",
+    "srk" : "ng b --prod && git add -A && git commit -m '...' && git push && devssh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
