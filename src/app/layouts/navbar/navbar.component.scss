@@ -13,10 +13,10 @@
   /* font-family: "Roboto", cursive; */
   color: rgba(80, 255, 153, 0.445) !important;
 }
-.dropdown-item:hover {
-  background-color: orange;
-  color: white;
-}
+// .dropdown-item:hover {
+//   background-color: orange;
+//   color: white;
+// }
 
 .navbar-brand {
   /* font-family: 'Roboto', cursive; */
@@ -55,4 +55,17 @@
     width: 55px;
     height: 45px;
   }
+}
+.dropdown .dropdown-menu {
+  color: white;
+  background-color: #DF3B0B;
+}
+
+.dropdown .dropdown-menu a {
+  color: white;
+}
+
+.dropdown .dropdown-menu a:hover {
+  color: white;
+  background-color: black;
 }
