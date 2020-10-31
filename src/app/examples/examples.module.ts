@@ -17,10 +17,14 @@ import { FormsModule } from '@angular/forms';
 import { ComponentInteractionClientServerComponent } from './components/component-interaction-client-server/component-interaction-client-server.component';
 import { ClientComponent } from './components/component-interaction-client-server/client/client.component';
 import { ServerComponent } from './components/component-interaction-client-server/server/server.component';
+import { InterpolationComponent } from './components/data-bindings/interpolation/interpolation.component';
+import { PropertyBindingComponent } from './components/data-bindings/property-binding/property-binding.component';
+import { TempRefVariableComponent } from './components/data-bindings/temp-ref-variable/temp-ref-variable.component';
+import { EventsBindingComponent } from './components/data-bindings/events-binding/events-binding.component';
 
 
 @NgModule({
-  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent, ComponentInteractionClientServerComponent, ClientComponent, ServerComponent],
+  declarations: [ExamplesComponent, ComponentInteractionComponent, DataBindingsComponent, EventsBindingsComponent, FormBindingsComponent, StructuralDirectivesComponent, ParentComponent, ChildComponent, ComponentInteractionAdvComponent, ParentCardComponent, ChildCardComponent, ComponentInteractionClientServerComponent, ClientComponent, ServerComponent, InterpolationComponent, PropertyBindingComponent, TempRefVariableComponent, EventsBindingComponent],
   imports: [
     CommonModule,
     ExamplesRoutingModule,
